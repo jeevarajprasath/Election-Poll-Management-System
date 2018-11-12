@@ -1,0 +1,11 @@
+//Candidate Table
+create table candidate_reg(cno int,name varchar(30),gender varchar(6),dob varchar(20),birthplace varchar(30),
+wardno int,ward varchar(30),municipality varchar(30),address varchar(50),streetaddress varchar(50),
+locality varchar(20),city varchar(20),pincode int,phoneno varchar(20),emailid varchar(30),adhaar_no varchar(20),
+vote int);
+
+
+//Voter Table
+create table voter_reg(name varchar(30),gender varchar(6),birthplace varchar(30),nationality varchar(20),
+address varchar(50),street_address varchar(30),locality varchar(20),pincode int,phone_no varchar(20),
+email_id varchar(30),adharcard_no varchar(30),status int,username varchar(20),password varchar(20),Voterno int,dob varchar(20));
